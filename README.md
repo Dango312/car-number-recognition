@@ -1,5 +1,5 @@
 # Car license plate detection and recognition
-This project implements a Python pipeline for real-time detection and recognition of car license plates in video streams, with automated notification functionality.
+This project implements a Python pipeline for real-time detection and recognition of car license plates in video streams, with automated notification functionality. The program allows configuring a blacklist and whitelist of cars.
 ## Components
 * **Detection**: YOLOv8n. Search for license plates.
 * **Recognition**: LPRNet. Number character recognition.
