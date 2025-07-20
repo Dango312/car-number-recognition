@@ -1,0 +1,20 @@
+[General]
+device = cpu
+video_source = video_test/test.mp4
+whitelist_path = whitelist.txt
+blacklist_path = blacklist.txt
+log_dir = logs
+
+[LPRNet]
+model_path = weights/LPRNet_model.pth
+
+[YOLO]
+model_path = weights/best.pt
+confidence_threshold = 0.6
+
+[API]
+endpoint =
+
+[Telegram]
+token =
+chat_id = 
